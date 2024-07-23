@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+#nav {
+  width: 60%;
+}
+#opt:hover {
+  text-decoration: underline;
+}
+#cta:hover {
+  color: #0a66c2;
+  transition: color ease-in-out 0.1s;
+}
+header {
+  border-bottom: 1px solid white;
+}
+#face {
+  width: 375px;
+  height: 400px;
+  border-radius: 100%;
+  filter: grayscale(1);
+}
+#face:hover {
+  filter: grayscale(0);
+  transition: ease-in-out 0.8s;
+  cursor: pointer;
+}
+
+.contact-f {
+  width: 75%;
+  color: white;
+}
+#submitMessage {
+  display: none;
+}
